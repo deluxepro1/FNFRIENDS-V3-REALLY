@@ -151,6 +151,62 @@ class Paths
 
 	inline static public function txt(key:String, ?library:String)
 	{
+	/**
+	 * Obtiene scripts Lua de eventos personalizados directamente desde assets/
+	 */
+public static function customEventPath(name:String):String
+{
+	var path = 'assets/custom_events/' + name + '.lua';
+	#if sys
+	if (FileSystem.exists(path))
+		return path;
+	#end
+	return path;
+	}
+
+	/**
+	 * Obtiene scripts Lua de tipos de nota personalizados directamente desde assets/
+	 */
+customNoteTypePath(name:String):String
+{
+	var path = 'assets/custom_notetypes/' + name + '.lua';
+	#if sys
+	if (FileSystem.exists(path))
+		return path;
+	#end
+	return path;
+	}
+
+	/**
+	 * Obtiene scripts Lua globales (como los usados en stages o efectos) desde assets/
+	 */
+public static function customEventPath(name:String):String
+{
+	var path = 'assets/custom_events/' + name + '.lua';
+	#if sys
+	if (FileSystem.exists(path))
+		return path;
+	#end
+	return path;
+	}
+public static function songLuaPath(songName:String, scriptName:String):String
+{
+	var path = 'assets/songs/' + formatToSongPath(songName) + '/' + scriptName + '.lua';
+	#if sys
+	if (FileSystem.exists(path))
+		return path;
+	#end
+	return path;
+}
+public static function stageScriptPath(name:String):String
+{
+	var path = 'assets/stages/' + name + '.lua';
+	#if sys
+	if (FileSystem.exists(path))
+		return path;
+	#end
+	return path;
+}
 		return getPath('data/$key.txt', TEXT, library);
 	}
 
