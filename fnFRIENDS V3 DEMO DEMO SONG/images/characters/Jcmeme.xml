@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Jcmeme.png" width="2048" height="2048">
+  <SubTexture name="idle0000" x="0" y="0"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle0001" x="506" y="0"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle0002" x="0" y="545"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle0003" x="506" y="545"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle0004" x="1012" y="0"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="idle0005" x="1012" y="545"  width="506" height="545" frameX="-287" frameY="-25" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

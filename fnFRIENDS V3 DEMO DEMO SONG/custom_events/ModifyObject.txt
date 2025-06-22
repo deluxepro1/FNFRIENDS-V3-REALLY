@@ -1,0 +1,4 @@
+creado por deluxe
+value 1 : (0) = escala (1) = transparencia
+
+value 2 : ("tag"character u object),(tiempo en seg en el que se transforma) (valor) osea transparencia o escala dependiendo del valor 1

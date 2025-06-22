@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Deluxesus.png" width="4096" height="4096">
+  <SubTexture name="deluxesus right0001" x="0" y="0"  width="645" height="458" frameX="-409" frameY="-175" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus right0002" x="0" y="458"  width="630" height="459" frameX="-487" frameY="-183" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus left0001" x="645" y="0" width="515" height="545" rotated="true"  frameX="-375" frameY="-72" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus down0000" x="630" y="545" width="514" height="545" rotated="true"  frameX="-375" frameY="-73" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus right0000" x="0" y="917"  width="607" height="450" frameX="-373" frameY="-171" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus left0000" x="1144" y="545"  width="526" height="518" frameX="-429" frameY="-70" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus up0001" x="1160" y="0" width="503" height="528" rotated="true"  frameX="-463" frameY="-110" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0001" x="1144" y="1063" width="475" height="558" rotated="true"  frameX="-357" frameY="-161" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus up0002" x="607" y="1090"  width="506" height="520" frameX="-465" frameY="-70" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0006" x="0" y="1367"  width="563" height="465" frameX="-357" frameY="-171" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0000" x="1619" y="1063" width="475" height="550" rotated="true"  frameX="-357" frameY="-161" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus dedo0000" x="1663" y="0" width="474" height="545" rotated="true"  frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus down0001" x="1619" y="1613" width="474" height="545" rotated="true"  frameX="-375" frameY="-113" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0002" x="563" y="1610"  width="544" height="465" frameX="-357" frameY="-171" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0005" x="0" y="1832"  width="562" height="445" frameX="-357" frameY="-191" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0003" x="1107" y="1621" width="443" height="564" rotated="true"  frameX="-357" frameY="-193" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus cierra0000" x="2093" y="1613" width="456" height="545" rotated="true"  frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus cierra0001" x="1670" y="545"  width="545" height="456" frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus down0002" x="2094" y="1001" width="455" height="546" rotated="true"  frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus cierra0002" x="2137" y="0" width="455" height="545" rotated="true"  frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus dedo0001" x="562" y="2075"  width="545" height="455" frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus dedo0002" x="0" y="2277"  width="545" height="455" frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus gira0000" x="1550" y="2158"  width="545" height="455" frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus gira0001" x="2095" y="2158" width="455" height="545" rotated="true"  frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus gira0002" x="2215" y="545"  width="545" height="455" frameX="-375" frameY="-132" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus up0000" x="2549" y="1000"  width="488" height="503" frameX="-495" frameY="-139" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus idle0004" x="1107" y="2185" width="431" height="564" rotated="true"  frameX="-357" frameY="-214" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="deluxesus up0003" x="2592" y="0"  width="465" height="518" frameX="-465" frameY="-72" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+Fade the enemies notes either in or out
+
+Value 1:
+if you Type 0 than it Fades in
+if you type 1 it Fades out
+
+Value 2:
+How long it takes to 
+fade in or out
+
+made by daspig

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Cupheadshoot.png">
+	
+	
+	<SubTexture name="Shot01 instance 10000" x="5" y="5" width="35" height="17" frameX="0" frameY="-154" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10001" x="45" y="5" width="75" height="18" frameX="-40" frameY="-154" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10002" x="126" y="5" width="148" height="19" frameX="-45" frameY="-153" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10003" x="279" y="5" width="162" height="19" frameX="-109" frameY="-152" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10004" x="446" y="5" width="136" height="18" frameX="-212" frameY="-154" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10005" x="587" y="5" width="164" height="58" frameX="-276" frameY="-130" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10006" x="201" y="382" width="84" height="83" frameX="-363" frameY="-118" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10007" x="290" y="382" width="173" height="172" frameX="-318" frameY="-65" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10008" x="469" y="382" width="254" height="261" frameX="-276" frameY="-22" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10009" x="728" y="382" width="273" height="295" frameX="-272" frameY="-5" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10010" x="5" y="682" width="288" height="309" frameX="-262" frameY="0" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot01 instance 10011" x="756" y="5" width="0" height="0" frameX="1393" frameY="605" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10000" x="5" y="5" width="35" height="17" frameX="0" frameY="-154" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10001" x="45" y="5" width="75" height="18" frameX="-40" frameY="-154" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10002" x="126" y="5" width="148" height="19" frameX="-45" frameY="-153" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10003" x="279" y="5" width="162" height="19" frameX="-109" frameY="-152" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10004" x="446" y="5" width="136" height="18" frameX="-212" frameY="-153" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10005" x="587" y="5" width="164" height="58" frameX="-276" frameY="-130" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10006" x="201" y="382" width="84" height="83" frameX="-363" frameY="-118" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10007" x="290" y="382" width="173" height="172" frameX="-318" frameY="-65" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10008" x="469" y="382" width="254" height="261" frameX="-276" frameY="-22" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10009" x="728" y="382" width="273" height="295" frameX="-272" frameY="-5" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10010" x="5" y="68" width="288" height="309" frameX="-262" frameY="0" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot02 instance 10011" x="756" y="5" width="0" height="0" frameX="1389" frameY="580" frameWidth="550" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10000" x="298" y="68" width="41" height="18" frameX="0" frameY="-152" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10001" x="345" y="68" width="64" height="21" frameX="-41" frameY="-151" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10002" x="414" y="68" width="167" height="18" frameX="-12" frameY="-152" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10003" x="586" y="68" width="123" height="16" frameX="-121" frameY="-153" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10004" x="715" y="68" width="148" height="19" frameX="-160" frameY="-151" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10005" x="5" y="382" width="191" height="57" frameX="-209" frameY="-131" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10006" x="201" y="382" width="84" height="83" frameX="-324" frameY="-118" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10007" x="290" y="382" width="173" height="172" frameX="-279" frameY="-66" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10008" x="469" y="382" width="254" height="261" frameX="-236" frameY="-22" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10009" x="728" y="382" width="273" height="295" frameX="-233" frameY="-5" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10010" x="5" y="682" width="288" height="309" frameX="-223" frameY="0" frameWidth="511" frameHeight="309" />
+	<SubTexture name="Shot03 instance 10011" x="298" y="682" width="0" height="0" frameX="1398" frameY="627" frameWidth="511" frameHeight="309" />
+	<SubTexture name="BulletFlashFX instance 10000" x="303" y="682" width="49" height="59" frameX="-21" frameY="-17" frameWidth="92" frameHeight="88" />
+	<SubTexture name="BulletFlashFX instance 10001" x="357" y="682" width="56" height="68" frameX="-18" frameY="-13" frameWidth="92" frameHeight="88" />
+	<SubTexture name="BulletFlashFX instance 10002" x="418" y="682" width="81" height="76" frameX="0" frameY="-11" frameWidth="92" frameHeight="88" />
+	<SubTexture name="BulletFlashFX instance 10003" x="505" y="682" width="92" height="88" frameX="-1" frameY="0" frameWidth="92" frameHeight="88" />
+</TextureAtlas>

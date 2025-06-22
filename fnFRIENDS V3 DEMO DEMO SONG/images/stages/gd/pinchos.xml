@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="pinchos.png" width="2048" height="1024">
+  <SubTexture name="pinchos0000" x="50" y="50"  width="1280" height="208" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="208"/>
+  <SubTexture name="pinchos0001" x="50" y="358"  width="1280" height="208" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="208"/>
+  <SubTexture name="pinchos0002" x="50" y="666"  width="1280" height="199" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="199"/>
+</TextureAtlas>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="jccp2.png" width="4096" height="4096">
+  <SubTexture name="up0002" x="50" y="50"  width="316" height="648" frameX="-0" frameY="-0" frameWidth="316" frameHeight="648"/>
+  <SubTexture name="up0001" x="466" y="50"  width="316" height="642" frameX="-0" frameY="-0" frameWidth="316" frameHeight="642"/>
+  <SubTexture name="up0000" x="50" y="798" width="633" height="321" rotated="true"  frameX="-0" frameY="-0" frameWidth="321" frameHeight="633"/>
+  <SubTexture name="idle0000" x="882" y="50"  width="370" height="620" frameX="-0" frameY="-0" frameWidth="370" frameHeight="620"/>
+  <SubTexture name="idle0003" x="882" y="770"  width="370" height="620" frameX="-0" frameY="-0" frameWidth="370" frameHeight="620"/>
+  <SubTexture name="right0000" x="1352" y="50"  width="382" height="617" frameX="-0" frameY="-0" frameWidth="382" frameHeight="617"/>
+  <SubTexture name="left0002" x="50" y="1219" width="614" height="302" rotated="true"  frameX="-0" frameY="-0" frameWidth="302" frameHeight="614"/>
+  <SubTexture name="idle0001" x="1352" y="767"  width="370" height="612" frameX="-0" frameY="-0" frameWidth="370" frameHeight="612"/>
+  <SubTexture name="right0001" x="50" y="1621" width="608" height="406" rotated="true"  frameX="-0" frameY="-0" frameWidth="406" frameHeight="608"/>
+  <SubTexture name="left0001" x="764" y="1490"  width="313" height="605" frameX="-0" frameY="-0" frameWidth="313" frameHeight="605"/>
+  <SubTexture name="right0002" x="1177" y="1490"  width="438" height="604" frameX="-0" frameY="-0" frameWidth="438" frameHeight="604"/>
+  <SubTexture name="left0000" x="1834" y="50"  width="313" height="603" frameX="-0" frameY="-0" frameWidth="313" frameHeight="603"/>
+  <SubTexture name="idle0002" x="1715" y="1479"  width="370" height="602" frameX="-0" frameY="-0" frameWidth="370" frameHeight="602"/>
+  <SubTexture name="down0000" x="50" y="2195" width="588" height="375" rotated="true"  frameX="-0" frameY="-0" frameWidth="375" frameHeight="588"/>
+  <SubTexture name="down0001" x="2247" y="50"  width="395" height="579" frameX="-0" frameY="-0" frameWidth="395" frameHeight="579"/>
+  <SubTexture name="down0002" x="1822" y="767"  width="403" height="570" frameX="-0" frameY="-0" frameWidth="403" frameHeight="570"/>
+</TextureAtlas>

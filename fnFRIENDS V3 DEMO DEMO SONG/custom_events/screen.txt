@@ -1,0 +1,13 @@
+Do you want to play with me?
+
+value 1 put: 1, 2, 3, 0
+
+1: first screen
+
+2: second screem
+
+3: static screen
+
+4: black screen
+
+0: nothing

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rain.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle00000" x="0" y="0" width="898" height="904" frameX="-3" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle10000" x="884" y="904" width="883" height="904" frameX="2" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle20000" x="898" y="0" width="888" height="904" frameX="-3" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle30000" x="1767" y="904" width="880" height="904" frameX="2" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle40000" x="0" y="904" width="884" height="904" frameX="-15" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle50000" x="0" y="1808" width="872" height="904" frameX="0" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle60000" x="2674" y="904" width="878" height="904" frameX="-3" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle70000" x="2674" y="0" width="880" height="904" frameX="2" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle80000" x="898" y="0" width="888" height="904" frameX="-3" frameY="2" frameWidth="900" frameHeight="900"/>
+	<SubTexture name="idle90000" x="1786" y="0" width="888" height="904" frameX="-11" frameY="2" frameWidth="900" frameHeight="900"/>
+</TextureAtlas>

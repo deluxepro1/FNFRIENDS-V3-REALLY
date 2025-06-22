@@ -1,0 +1,199 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				2
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idlepito",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "xd"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFTpito",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "bf-new left0002"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHTpito",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "bf-new right0002"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUPpito",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "bf-new up0002"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				198,
+				67
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				170,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				171,
+				59
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "missup"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singODWNmiss",
+			"indices": [],
+			"name": "missdown"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "missleft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "missright"
+		},
+		{
+			"offsets": [
+				0,
+				-89
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "dodge"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				167,
+				58
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				172,
+				58
+			],
+			"anim": "singRIGHT",
+			"fps": 19,
+			"name": "right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/jcgd",
+	"position": [
+		0,
+		-10
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		170,
+		255
+	],
+	"camera_position": [
+		150,
+		60
+	],
+	"sing_duration": 2.80000000000001,
+	"scale": 0.6,
+	"_editor_isPlayer": true
+}

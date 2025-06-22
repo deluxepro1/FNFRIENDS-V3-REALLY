@@ -1,0 +1,5 @@
+By Kophy232 with a Bot help, for sick parts
+without the flash, flash is removed.
+
+Value 1: beginning position
+to unactivate it just leave the value blank

@@ -1,0 +1,2 @@
+v1:Fuerza
+v2:Duracion (recomiendo usar de 4 para delante)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="gfDanceTitle.png" width="2048" height="2048">
+  <SubTexture name="gfDanceTitle 0006" x="0" y="0"  width="488" height="632" frameX="-717" frameY="-84" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0007" x="488" y="0"  width="432" height="653" frameX="-717" frameY="-67" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0005" x="0" y="653" width="635" height="441" rotated="true"  frameX="-709" frameY="-85" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0000" x="635" y="653" width="670" height="412" rotated="true"  frameX="-704" frameY="-49" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0001" x="635" y="1065" width="664" height="412" rotated="true"  frameX="-702" frameY="-56" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0002" x="920" y="0" width="656" height="411" rotated="true"  frameX="-706" frameY="-64" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0003" x="1305" y="411"  width="411" height="646" frameX="-704" frameY="-70" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="gfDanceTitle 0004" x="0" y="1094" width="629" height="411" rotated="true"  frameX="-707" frameY="-91" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

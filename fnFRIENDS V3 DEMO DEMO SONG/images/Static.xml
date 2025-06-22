@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Static.png">
+<SubTexture name="estatica0000" x="0" y="0" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+<SubTexture name="estatica0001" x="448" y="0" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+<SubTexture name="estatica0002" x="0" y="303" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+<SubTexture name="estatica0003" x="448" y="303" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+<SubTexture name="estatica0004" x="896" y="0" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+<SubTexture name="estatica0005" x="896" y="303" width="448" height="303" frameX="0" frameY="0" frameWidth="448" frameHeight="303" />
+</TextureAtlas>

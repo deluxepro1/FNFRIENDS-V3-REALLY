@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="hulecp.png" width="4096" height="4096">
+  <SubTexture name="left0001" x="50" y="50"  width="1082" height="675" frameX="-0" frameY="-0" frameWidth="1082" frameHeight="675"/>
+  <SubTexture name="left0000" x="50" y="825"  width="1078" height="679" frameX="-0" frameY="-0" frameWidth="1078" frameHeight="679"/>
+  <SubTexture name="idle0002" x="1232" y="50" width="640" height="1069" rotated="true"  frameX="-0" frameY="-0" frameWidth="1069" frameHeight="640"/>
+  <SubTexture name="up0001" x="50" y="1604"  width="1065" height="720" frameX="-0" frameY="-0" frameWidth="1065" frameHeight="720"/>
+  <SubTexture name="down0001" x="1972" y="50" width="659" height="1055" rotated="true"  frameX="-0" frameY="-0" frameWidth="1055" frameHeight="659"/>
+  <SubTexture name="idle0000" x="1215" y="1604"  width="1054" height="688" frameX="-0" frameY="-0" frameWidth="1054" frameHeight="688"/>
+  <SubTexture name="idle0001" x="50" y="2424"  width="1054" height="688" frameX="-0" frameY="-0" frameWidth="1054" frameHeight="688"/>
+  <SubTexture name="idle0003" x="1204" y="2424"  width="1054" height="688" frameX="-0" frameY="-0" frameWidth="1054" frameHeight="688"/>
+  <SubTexture name="up0000" x="2731" y="50" width="688" height="1054" rotated="true"  frameX="-0" frameY="-0" frameWidth="1054" frameHeight="688"/>
+  <SubTexture name="down0000" x="2358" y="2392"  width="1051" height="675" frameX="-0" frameY="-0" frameWidth="1051" frameHeight="675"/>
+  <SubTexture name="right0000" x="2731" y="1204" width="685" height="1042" rotated="true"  frameX="-0" frameY="-0" frameWidth="1042" frameHeight="685"/>
+  <SubTexture name="right0001" x="50" y="3212"  width="1041" height="664" frameX="-0" frameY="-0" frameWidth="1041" frameHeight="664"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="error.png" width="2048" height="2048">
+  <SubTexture name="error0000" x="50" y="50"  width="640" height="640" frameX="-0" frameY="-0" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="error0001" x="790" y="50"  width="640" height="640" frameX="-0" frameY="-0" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="error0002" x="50" y="790"  width="640" height="640" frameX="-0" frameY="-0" frameWidth="640" frameHeight="640"/>
+  <SubTexture name="error0003" x="790" y="790"  width="640" height="640" frameX="-0" frameY="-0" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

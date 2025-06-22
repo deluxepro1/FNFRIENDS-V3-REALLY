@@ -1,0 +1,5 @@
+mueve objeto y valores
+
+value 1 (tiempo):(x),(y)
+
+value 2 tag del objeto

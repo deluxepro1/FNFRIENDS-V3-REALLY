@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="NMcupheadAttacks.png">
+<SubTexture name="BurstFX instance 10000" x="894" y="1134" width="498" height="213" frameX="0" frameY="-23" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10001" x="1227" y="244" width="409" height="229" frameX="-87" frameY="-13" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10002" x="0" y="874" width="452" height="260" frameX="-49" frameY="-6" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10003" x="452" y="874" width="464" height="245" frameX="-40" frameY="-3" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10004" x="1227" y="473" width="425" height="225" frameX="-72" frameY="-13" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10005" x="464" y="1134" width="430" height="230" frameX="-66" frameY="-13" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10006" x="1227" y="0" width="427" height="244" frameX="-75" frameY="-6" frameWidth="504" frameHeight="270" />
+<SubTexture name="BurstFX instance 10007" x="0" y="1134" width="464" height="242" frameX="-36" frameY="-11" frameWidth="504" frameHeight="270" />
+<SubTexture name="Roundabout instance 10000" x="0" y="597" width="254" height="277" frameX="-16" frameY="-20" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10001" x="0" y="305" width="256" height="292" frameX="-14" frameY="-9" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10002" x="476" y="0" width="235" height="297" frameX="-23" frameY="-6" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10003" x="240" y="0" width="235" height="302" frameX="-30" frameY="-2" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10004" x="0" y="0" width="240" height="305" frameX="-17" frameY="-1" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10005" x="256" y="305" width="254" height="284" frameX="-12" frameY="-9" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10006" x="711" y="0" width="245" height="279" frameX="-10" frameY="-15" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10007" x="254" y="597" width="260" height="275" frameX="-4" frameY="-18" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10008" x="957" y="0" width="270" height="274" frameX="0" frameY="-17" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10009" x="957" y="545" width="270" height="265" frameX="-1" frameY="-28" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10010" x="957" y="274" width="264" height="271" frameX="-2" frameY="-20" frameWidth="273" frameHeight="308" />
+<SubTexture name="Roundabout instance 10011" x="514" y="597" width="260" height="275" frameX="-7" frameY="-23" frameWidth="273" frameHeight="308" />
+<SubTexture name="Hadolen instance 10000" x="1547" y="1062" width="1" height="1" frameX="-136" frameY="-127" frameWidth="746" frameHeight="685" />
+</TextureAtlas>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="jcgd.png" width="4096" height="4096">
+  <SubTexture name="dead0005" x="50" y="50"  width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="dead0002" x="50" y="870"  width="964" height="712" frameX="-0" frameY="-0" frameWidth="964" frameHeight="712"/>
+  <SubTexture name="dead0003" x="1430" y="50" width="554" height="931" rotated="true"  frameX="-0" frameY="-0" frameWidth="931" frameHeight="554"/>
+  <SubTexture name="dead0001" x="50" y="1682"  width="680" height="530" frameX="-0" frameY="-0" frameWidth="680" frameHeight="530"/>
+  <SubTexture name="dead0004" x="1114" y="1081"  width="628" height="275" frameX="-0" frameY="-0" frameWidth="628" frameHeight="275"/>
+  <SubTexture name="right0001" x="830" y="1682" width="414" height="470" rotated="true"  frameX="-0" frameY="-0" frameWidth="470" frameHeight="414"/>
+  <SubTexture name="left0001" x="1344" y="1456"  width="467" height="428" frameX="-0" frameY="-0" frameWidth="467" frameHeight="428"/>
+  <SubTexture name="right0000" x="2084" y="50" width="415" height="456" rotated="true"  frameX="-0" frameY="-0" frameWidth="456" frameHeight="415"/>
+  <SubTexture name="left0000" x="1911" y="1081"  width="445" height="440" frameX="-0" frameY="-0" frameWidth="445" frameHeight="440"/>
+  <SubTexture name="up0000" x="1911" y="1621" width="435" height="423" rotated="true"  frameX="-0" frameY="-0" frameWidth="423" frameHeight="435"/>
+  <SubTexture name="dead0000" x="50" y="2312" width="430" height="403" rotated="true"  frameX="-0" frameY="-0" frameWidth="403" frameHeight="430"/>
+  <SubTexture name="down0000" x="580" y="2312"  width="423" height="377" frameX="-0" frameY="-0" frameWidth="423" frameHeight="377"/>
+  <SubTexture name="down0001" x="1103" y="2252" width="281" height="423" rotated="true"  frameX="-0" frameY="-0" frameWidth="423" frameHeight="281"/>
+  <SubTexture name="idle0000" x="1484" y="2144" width="417" height="423" rotated="true"  frameX="-0" frameY="-0" frameWidth="423" frameHeight="417"/>
+  <SubTexture name="idle0001" x="2001" y="2144"  width="423" height="399" frameX="-0" frameY="-0" frameWidth="423" frameHeight="399"/>
+  <SubTexture name="idle0002" x="2446" y="1621" width="281" height="423" rotated="true"  frameX="-0" frameY="-0" frameWidth="423" frameHeight="281"/>
+  <SubTexture name="idle0003" x="2456" y="606"  width="423" height="417" frameX="-0" frameY="-0" frameWidth="423" frameHeight="417"/>
+  <SubTexture name="up0001" x="50" y="2815"  width="423" height="417" frameX="-0" frameY="-0" frameWidth="423" frameHeight="417"/>
+</TextureAtlas>

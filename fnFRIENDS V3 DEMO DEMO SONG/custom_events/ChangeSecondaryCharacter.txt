@@ -1,0 +1,4 @@
+change characters lol
+
+value 1: personaje inicial
+value 2: personaje para cambiar a

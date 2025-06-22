@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"welcome",
+			"deluxe1",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"light-up",
+			"deluxe1",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+	   "crazy",
+			"deluxe2",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "deluxe1",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "week1",
+	"weekName": "deluxe1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week2",
+	"startUnlocked": true
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="deluxergb.png" width="4096" height="4096">
+  <SubTexture name="enojado0000" x="0" y="0"  width="482" height="702" frameX="-0" frameY="-0" frameWidth="482" frameHeight="702"/>
+  <SubTexture name="up0001" x="482" y="0"  width="555" height="693" frameX="-0" frameY="-0" frameWidth="555" frameHeight="693"/>
+  <SubTexture name="up0002" x="482" y="693"  width="555" height="693" frameX="-0" frameY="-0" frameWidth="555" frameHeight="693"/>
+  <SubTexture name="right0001" x="0" y="702"  width="477" height="690" frameX="-0" frameY="-0" frameWidth="477" frameHeight="690"/>
+  <SubTexture name="right0002" x="1037" y="0"  width="477" height="690" frameX="-0" frameY="-0" frameWidth="477" frameHeight="690"/>
+  <SubTexture name="golpeado0000" x="0" y="1392"  width="484" height="689" frameX="-0" frameY="-0" frameWidth="484" frameHeight="689"/>
+  <SubTexture name="golpeado0001" x="484" y="1386"  width="493" height="689" frameX="-0" frameY="-0" frameWidth="493" frameHeight="689"/>
+  <SubTexture name="golpeado0002" x="977" y="1386"  width="513" height="689" frameX="-0" frameY="-0" frameWidth="513" frameHeight="689"/>
+  <SubTexture name="golpeado0003" x="1514" y="0"  width="484" height="689" frameX="-0" frameY="-0" frameWidth="484" frameHeight="689"/>
+  <SubTexture name="right0000" x="1037" y="690"  width="464" height="689" frameX="-0" frameY="-0" frameWidth="464" frameHeight="689"/>
+  <SubTexture name="atack0000" x="1998" y="0"  width="619" height="687" frameX="-0" frameY="-0" frameWidth="619" frameHeight="687"/>
+  <SubTexture name="atack0002" x="1490" y="1379"  width="628" height="687" frameX="-0" frameY="-0" frameWidth="628" frameHeight="687"/>
+  <SubTexture name="atcack0001" x="1501" y="690"  width="629" height="687" frameX="-0" frameY="-0" frameWidth="629" frameHeight="687"/>
+  <SubTexture name="enojado0001" x="2130" y="687"  width="480" height="680" frameX="-0" frameY="-0" frameWidth="480" frameHeight="680"/>
+  <SubTexture name="altidle0000" x="2130" y="1367"  width="486" height="678" frameX="-0" frameY="-0" frameWidth="486" frameHeight="678"/>
+  <SubTexture name="altidle0001" x="0" y="2081"  width="486" height="678" frameX="-0" frameY="-0" frameWidth="486" frameHeight="678"/>
+  <SubTexture name="altidle0002" x="486" y="2075"  width="486" height="678" frameX="-0" frameY="-0" frameWidth="486" frameHeight="678"/>
+  <SubTexture name="altidle0003" x="972" y="2075"  width="486" height="678" frameX="-0" frameY="-0" frameWidth="486" frameHeight="678"/>
+  <SubTexture name="altidle0004" x="1458" y="2075"  width="486" height="678" frameX="-0" frameY="-0" frameWidth="486" frameHeight="678"/>
+  <SubTexture name="idle0003" x="2118" y="2045"  width="497" height="674" frameX="-0" frameY="-0" frameWidth="497" frameHeight="674"/>
+  <SubTexture name="idle0000" x="2617" y="0"  width="516" height="673" frameX="-0" frameY="-0" frameWidth="516" frameHeight="673"/>
+  <SubTexture name="left0001" x="0" y="2759"  width="672" height="649" frameX="-0" frameY="-0" frameWidth="672" frameHeight="649"/>
+  <SubTexture name="left0002" x="672" y="2753"  width="672" height="649" frameX="-0" frameY="-0" frameWidth="672" frameHeight="649"/>
+  <SubTexture name="idle0002" x="1944" y="2719"  width="524" height="665" frameX="-0" frameY="-0" frameWidth="524" frameHeight="665"/>
+  <SubTexture name="left0000" x="1344" y="2753"  width="573" height="654" frameX="-0" frameY="-0" frameWidth="573" frameHeight="654"/>
+  <SubTexture name="idle0001" x="2617" y="673"  width="507" height="653" frameX="-0" frameY="-0" frameWidth="507" frameHeight="653"/>
+  <SubTexture name="up0000" x="2468" y="2719"  width="551" height="643" frameX="-0" frameY="-0" frameWidth="551" frameHeight="643"/>
+  <SubTexture name="down0000" x="3133" y="0"  width="533" height="619" frameX="-0" frameY="-0" frameWidth="533" frameHeight="619"/>
+  <SubTexture name="down0001" x="3124" y="673"  width="537" height="610" frameX="-0" frameY="-0" frameWidth="537" frameHeight="610"/>
+</TextureAtlas>

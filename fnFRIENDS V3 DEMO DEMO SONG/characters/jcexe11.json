@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				2,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-ljdnsoop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "Dad idle dance"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-ajanaloop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "Dad Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHTajaja-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "Dad Sing Note RIGHT"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "transformation",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "deluxe trans"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-99
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				32
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-15,
+				-2
+			],
+			"anim": "shotting",
+			"fps": 24,
+			"name": "atack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				-4
+			],
+			"anim": "Hurt",
+			"fps": 12,
+			"name": "golpeado",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-127,
+				-53
+			],
+			"loop": false,
+			"fps": 33,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				-208
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/jcexe1",
+	"position": [
+		-40,
+		-230
+	],
+	"healthicon": "deluxe1",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-350,
+		-290
+	],
+	"sing_duration": 6.1,
+	"scale": 1.8,
+	"_editor_isPlayer": false
+}

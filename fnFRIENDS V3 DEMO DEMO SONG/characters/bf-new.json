@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [0, 0],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "xd",
+			"indices": [10, 11, 12, 12]
+		},
+		{
+			"loop": true,
+			"offsets": [-9, 10],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "bf-new left0002",
+			"indices": [12, 13, 14, 15]
+		},
+		{
+			"loop": true,
+			"offsets": [0, 3],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "bf-new right0002",
+			"indices": [15, 16, 17, 18]
+		},
+		{
+			"loop": true,
+			"offsets": [-1, -1],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "bf-new up0002",
+			"indices": [56, 57, 58, 59]
+		},
+		{
+			"offsets": [0, 0],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [-7, 2],
+			"loop": false,
+			"fps": 18,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [-6, 3],
+			"loop": false,
+			"fps": 18,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss-down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [11, 2],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "dodge",
+			"indices": []
+		},
+		{
+			"offsets": [0, 3],
+			"indices": [],
+			"fps": 18,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "miss-up"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "miss-right"
+		},
+		{
+			"offsets": [0, 6],
+			"indices": [],
+			"fps": 18,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "miss-left"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bf-new",
+	"position": [0, -10],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [0, 170, 255],
+	"camera_position": [80, 0],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="jctop.png" width="4096" height="4096">
+  <SubTexture name="altup0001" x="50" y="50"  width="315" height="539" frameX="-0" frameY="-0" frameWidth="315" frameHeight="539"/>
+  <SubTexture name="up0001" x="465" y="50"  width="271" height="539" frameX="-0" frameY="-0" frameWidth="271" frameHeight="539"/>
+  <SubTexture name="altup0000" x="50" y="689" width="528" height="381" rotated="true"  frameX="-0" frameY="-0" frameWidth="381" frameHeight="528"/>
+  <SubTexture name="up0000" x="836" y="50"  width="274" height="528" frameX="-0" frameY="-0" frameWidth="274" frameHeight="528"/>
+  <SubTexture name="altidle0000" x="50" y="1170" width="519" height="331" rotated="true"  frameX="-0" frameY="-0" frameWidth="331" frameHeight="519"/>
+  <SubTexture name="altidle0003" x="678" y="689"  width="313" height="519" frameX="-0" frameY="-0" frameWidth="313" frameHeight="519"/>
+  <SubTexture name="idle0000" x="1210" y="50"  width="285" height="519" frameX="-0" frameY="-0" frameWidth="285" frameHeight="519"/>
+  <SubTexture name="idle0003" x="1210" y="669"  width="285" height="519" frameX="-0" frameY="-0" frameWidth="285" frameHeight="519"/>
+  <SubTexture name="altleft0000" x="1595" y="50"  width="312" height="504" frameX="-0" frameY="-0" frameWidth="312" frameHeight="504"/>
+  <SubTexture name="left0000" x="1595" y="654"  width="270" height="504" frameX="-0" frameY="-0" frameWidth="270" frameHeight="504"/>
+  <SubTexture name="altdown0000" x="50" y="1601" width="503" height="311" rotated="true"  frameX="-0" frameY="-0" frameWidth="311" frameHeight="503"/>
+  <SubTexture name="down0000" x="653" y="1601" width="503" height="284" rotated="true"  frameX="-0" frameY="-0" frameWidth="284" frameHeight="503"/>
+  <SubTexture name="altright0000" x="1256" y="1288"  width="323" height="502" frameX="-0" frameY="-0" frameWidth="323" frameHeight="502"/>
+  <SubTexture name="right0000" x="2007" y="50"  width="296" height="502" frameX="-0" frameY="-0" frameWidth="296" frameHeight="502"/>
+  <SubTexture name="altidle0001" x="1965" y="654"  width="331" height="501" frameX="-0" frameY="-0" frameWidth="331" frameHeight="501"/>
+  <SubTexture name="idle0001" x="1965" y="1255"  width="285" height="501" frameX="-0" frameY="-0" frameWidth="285" frameHeight="501"/>
+  <SubTexture name="altleft0001" x="50" y="2012" width="496" height="276" rotated="true"  frameX="-0" frameY="-0" frameWidth="276" frameHeight="496"/>
+  <SubTexture name="left0001" x="646" y="2012" width="496" height="263" rotated="true"  frameX="-0" frameY="-0" frameWidth="263" frameHeight="496"/>
+  <SubTexture name="altidle0002" x="1256" y="1890" width="495" height="318" rotated="true"  frameX="-0" frameY="-0" frameWidth="318" frameHeight="495"/>
+  <SubTexture name="idle0002" x="50" y="2388" width="495" height="282" rotated="true"  frameX="-0" frameY="-0" frameWidth="282" frameHeight="495"/>
+  <SubTexture name="altdown0001" x="1242" y="2308" width="494" height="298" rotated="true"  frameX="-0" frameY="-0" frameWidth="298" frameHeight="494"/>
+  <SubTexture name="down0001" x="646" y="2375" width="494" height="285" rotated="true"  frameX="-0" frameY="-0" frameWidth="285" frameHeight="494"/>
+  <SubTexture name="altright0001" x="1851" y="1856"  width="327" height="491" frameX="-0" frameY="-0" frameWidth="327" frameHeight="491"/>
+  <SubTexture name="right0001" x="2403" y="50"  width="319" height="491" frameX="-0" frameY="-0" frameWidth="319" frameHeight="491"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="tele.png" width="8192" height="8192">
+  <SubTexture name="vak0000" x="12" y="12"  width="874" height="594" frameX="-214" frameY="-35" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="vak0001" x="910" y="12"  width="874" height="594" frameX="-214" frameY="-35" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="vak0002" x="1808" y="12"  width="874" height="594" frameX="-214" frameY="-35" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="vs0000" x="2706" y="12"  width="680" height="401" frameX="-300" frameY="-129" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="vs0001" x="3410" y="12"  width="680" height="401" frameX="-300" frameY="-129" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="vs0002" x="4114" y="12"  width="680" height="401" frameX="-300" frameY="-129" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

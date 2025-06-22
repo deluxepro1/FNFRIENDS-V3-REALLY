@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="aire.png" width="4096" height="4096">
+  <SubTexture name="aire0002" x="0" y="0"  width="1086" height="667" frameX="-0" frameY="-0" frameWidth="1086" frameHeight="667"/>
+  <SubTexture name="aire0005" x="0" y="667"  width="1027" height="667" frameX="-0" frameY="-0" frameWidth="1027" frameHeight="667"/>
+  <SubTexture name="aire0000" x="1086" y="0"  width="1003" height="720" frameX="-0" frameY="-0" frameWidth="1003" frameHeight="720"/>
+  <SubTexture name="aire0003" x="0" y="1334"  width="984" height="677" frameX="-0" frameY="-0" frameWidth="984" frameHeight="677"/>
+  <SubTexture name="aire0001" x="1027" y="720"  width="934" height="696" frameX="-0" frameY="-0" frameWidth="934" frameHeight="696"/>
+  <SubTexture name="aire0004" x="0" y="2011"  width="918" height="720" frameX="-0" frameY="-0" frameWidth="918" frameHeight="720"/>
+</TextureAtlas>

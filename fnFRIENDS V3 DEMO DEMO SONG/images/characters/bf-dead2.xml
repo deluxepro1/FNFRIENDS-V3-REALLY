@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="bf-dead2.png" width="8192" height="8192">
+  <SubTexture name="primero0003" x="12" y="12"  width="1031" height="720" frameX="-57" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="primero0002" x="1067" y="12"  width="974" height="720" frameX="-102" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="tercero0001" x="2065" y="12"  width="842" height="719" frameX="-182" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="primero0000" x="2931" y="12"  width="742" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="tercero0000" x="3697" y="12"  width="732" height="719" frameX="-191" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="tercero0005" x="2931" y="677"  width="732" height="719" frameX="-191" frameY="-0" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="primero0004" x="2065" y="755"  width="732" height="685" frameX="-191" frameY="-35" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="tercero0004" x="12" y="756"  width="732" height="673" frameX="-191" frameY="-46" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="primero0005" x="768" y="756"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="segundo0000" x="768" y="1421"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="segundo0002" x="12" y="1453"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="segundo0003" x="4453" y="12"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="segundo0004" x="5209" y="12"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="segundo0005" x="5965" y="12"  width="732" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+  <SubTexture name="primero0001" x="6721" y="12"  width="712" height="641" frameX="-191" frameY="-78" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

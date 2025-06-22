@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				14,
+				-45
+			],
+			"loop": false,
+			"anim": "gira",
+			"fps": 8,
+			"name": "deluxesus gira",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "Dad Sing Note RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-72,
+				51
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				52
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-67,
+				7
+			],
+			"loop": false,
+			"fps": 3,
+			"anim": "dedo",
+			"indices": [],
+			"name": "dedo"
+		},
+		{
+			"offsets": [
+				-61,
+				8
+			],
+			"loop": false,
+			"fps": 6,
+			"anim": "cierra",
+			"indices": [],
+			"name": "cierra"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-67,
+				51
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-37,
+				103
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-72,
+				51
+			],
+			"indices": [],
+			"fps": 20,
+			"anim": "idle",
+			"loop": true,
+			"name": "idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deluxesus",
+	"position": [
+		-260,
+		270
+	],
+	"healthicon": "icon-deluxesus",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
