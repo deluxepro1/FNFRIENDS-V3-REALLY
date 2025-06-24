@@ -15,6 +15,95 @@ import haxe.Json;
 
 class Paths
 {
+	public static var currentLevel:String;
+
+	public static function setCurrentLevel(name:String)
+	{
+		currentLevel = name.toLowerCase();
+	}
+
+	public static function getPath(file:String, ?type:AssetType = TEXT, ?library:Null<String> = null, ?modsAllowed:Bool = true):String
+	{
+		#if MODS_ALLOWED
+		if (modsAllowed)
+		{
+			var customFile:String = file;
+			if (library != null)
+				customFile = '$library/$file';
+
+			var modded:String = modFolders(customFile);
+			if (FileSystem.exists(modded))
+				return modded;
+		}
+		#end
+
+		if (library != null)
+			return getLibraryPath(file, library);
+
+		if (currentLevel != null)
+		{
+			var levelPath:String = '';
+			if (currentLevel != 'shared')
+			{
+				levelPath = getLibraryPathForce(file, 'week_assets', currentLevel);
+				if (Assets.exists(levelPath, type))
+					return levelPath;
+			}
+		}
+		return getSharedPath(file);
+	}
+
+	public static function getLibraryPath(file:String, library:String = "shared")
+	{
+		if (library == "shared")
+			return getSharedPath(file);
+		else
+			return getLibraryPathForce(file, library);
+	}
+
+	inline public static function getSharedPath(file:String = '')
+	{
+		return 'assets/shared/$file';
+	}
+
+	public static function getLibraryPathForce(file:String, library:String, ?level:String):String
+	{
+		if (level == null)
+			level = library;
+		var returnPath = '$library:assets/$level/$file';
+		return returnPath;
+	}
+
+	// Nuevas rutas para soporte LUA
+	public static function customEventPath(name:String):String
+	{
+		var path = 'assets/custom_events/' + name + '.lua';
+		#if sys
+		if (FileSystem.exists(path))
+			return path;
+		#end
+		return path;
+	}
+
+	public static function customNoteTypePath(name:String):String
+	{
+		var path = 'assets/custom_notetypes/' + name + '.lua';
+		#if sys
+		if (FileSystem.exists(path))
+			return path;
+		#end
+		return path;
+	}
+
+	public static function luaScriptPath(name:String):String
+	{
+		return 'assets/scripts/' + name + '.lua';
+	}
+
+
+
+
+{
 	inline public static var SOUND_EXT = #if web "mp3" #else "ogg" #end;
 	inline public static var VIDEO_EXT = "mp4";
 
@@ -93,66 +182,9 @@ class Paths
 		#if !html5 openfl.Assets.cache.clear("songs"); #end
 	}
 
-	static public var currentLevel:String;
 
-	static public function setCurrentLevel(name:String)
-	{
-		currentLevel = name.toLowerCase();
-	}
-	
-       public static function getPath(file:String, ?type:AssetType = TEXT, ?library:Null<String> = null, ?modsAllowed:Bool = true):String
-	{
-		#if MODS_ALLOWED
-		if (modsAllowed)
-		{
-			var customFile:String = file;
-			if (library != null)
-				customFile = '$library/$file';
-
-			var modded:String = modFolders(customFile);
-			if (FileSystem.exists(modded))
-				return modded;
-		}
-		#end
-
-		if (library != null)
-			return getLibraryPath(file, library);
-
-		if (currentLevel != null)
-		{
-			var levelPath:String = '';
-			if (currentLevel != 'shared')
-			{
-				levelPath = getLibraryPathForce(file, 'week_assets', currentLevel);
-				if (Assets.exists(levelPath, type))
-					return levelPath;
-			}
-		}
-
-		return getSharedPath(file);
-	}
 	
 
-	static public function getLibraryPath(file:String, library:String = "shared")
-{
-	if (library == "shared")
-		return getSharedPath(file);
-	else
-		return getLibraryPathForce(file, library);
-}
-
-	inline static function getLibraryPathForce(file:String, library:String, ?level:String)
-	{
-		if (level == null)
-			level = library;
-		var returnPath = '$library:assets/$level/$file';
-		return returnPath;
-	}
-
-	inline public static function getSharedPath(file:String = '')
-	{
-		return 'assets/shared/$file';
-	}
 
 
 
@@ -176,15 +208,7 @@ class Paths
 	/**
 	 * Obtiene scripts Lua globales (como los usados en stages o efectos) desde assets/
 	 */
-public static function customEventPath(name:String):String
-{
-	var path = 'assets/custom_events/' + name + '.lua';
-	#if sys
-	if (FileSystem.exists(path))
-		return path;
-	#end
-	return path;
-	}
+
 public static function songLuaPath(songName:String, scriptName:String):String
 {
 	var path = 'assets/songs/' + formatToSongPath(songName) + '/' + scriptName + '.lua';
