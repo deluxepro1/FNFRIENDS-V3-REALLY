@@ -99,8 +99,8 @@ class Paths
 	{
 		currentLevel = name.toLowerCase();
 	}
-
-	public static function getPath(file:String, ?type:AssetType = TEXT, ?library:Null<String> = null, ?modsAllowed:Bool = true):String
+	
+       public static function getPath(file:String, ?type:AssetType = TEXT, ?library:Null<String> = null, ?modsAllowed:Bool = true):String
 	{
 		#if MODS_ALLOWED
 		if (modsAllowed)
@@ -128,13 +128,18 @@ class Paths
 					return levelPath;
 			}
 		}
+
 		return getSharedPath(file);
 	}
+	
 
-	static public function getLibraryPath(file:String, library = "shared")
-	{
-		return if (library == "shared") getSharedPath(file); else getLibraryPathForce(file, library);
-	}
+	static public function getLibraryPath(file:String, library:String = "shared")
+{
+	if (library == "shared")
+		return getSharedPath(file);
+	else
+		return getLibraryPathForce(file, library);
+}
 
 	inline static function getLibraryPathForce(file:String, library:String, ?level:String)
 	{
@@ -149,25 +154,16 @@ class Paths
 		return 'assets/shared/$file';
 	}
 
-	inline static public function txt(key:String, ?library:String)
-	{
-	/**
-	 * Obtiene scripts Lua de eventos personalizados directamente desde assets/
-	 */
-public static function customEventPath(name:String):String
-{
-	var path = 'assets/custom_events/' + name + '.lua';
-	#if sys
-	if (FileSystem.exists(path))
-		return path;
-	#end
-	return path;
-	}
+
+
+	
+        
 
 	/**
 	 * Obtiene scripts Lua de tipos de nota personalizados directamente desde assets/
 	 */
-customNoteTypePath(name:String):String
+
+	public static function customNoteTypePath(name:String):String
 {
 	var path = 'assets/custom_notetypes/' + name + '.lua';
 	#if sys
@@ -198,6 +194,7 @@ public static function songLuaPath(songName:String, scriptName:String):String
 	#end
 	return path;
 }
+	
 public static function stageScriptPath(name:String):String
 {
 	var path = 'assets/stages/' + name + '.lua';
@@ -207,13 +204,16 @@ public static function stageScriptPath(name:String):String
 	#end
 	return path;
 }
-		return getPath('data/$key.txt', TEXT, library);
-	}
+		
 
 	inline static public function xml(key:String, ?library:String)
 	{
 		return getPath('data/$key.xml', TEXT, library);
 	}
+	inline static public function txt(key:String, ?library:String)
+{
+	return getPath('data/$key.txt', TEXT, library);
+}
 
 	inline static public function json(key:String, ?library:String)
 	{
@@ -726,3 +726,4 @@ public static function stageScriptPath(name:String):String
 	}
 	#end
 }
+

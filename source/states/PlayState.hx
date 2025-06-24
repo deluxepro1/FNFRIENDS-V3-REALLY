@@ -531,7 +531,8 @@ class PlayState extends MusicBeatState
 
 		// STAGE SCRIPTS
 		#if LUA_ALLOWED
-		startLuasNamed('stages/' + curStage + '.lua');
+		var path = Paths.stageScriptPath(curStage);
+startLuasNamed(path);
 		#end
 
 		#if HSCRIPT_ALLOWED
@@ -738,9 +739,11 @@ class PlayState extends MusicBeatState
 
 		#if LUA_ALLOWED
 		for (notetype in noteTypes)
-			startLuasNamed('custom_notetypes/' + notetype + '.lua');
+			var path = Paths.customNoteTypePath(notetype);
+startLuasNamed(path);
 		for (event in eventsPushed)
-			startLuasNamed('custom_events/' + event + '.lua');
+		var path = Paths.customEventPath(event);
+startLuasNamed(path);
 		#end
 
 		#if HSCRIPT_ALLOWED
@@ -4598,18 +4601,49 @@ class PlayState extends MusicBeatState
 	}
 
 	#if LUA_ALLOWED
-	public function startLuasNamed(luaFile:String)
-	{
-		#if MODS_ALLOWED
-		var luaToLoad:String = Paths.modFolders(luaFile);
-		if (!FileSystem.exists(luaToLoad))
-			luaToLoad = Paths.getSharedPath(luaFile);
+public function startLuasNamed(luaPath:String)
+{
+	// Asegurarse de que termina en .lua
+	if (!luaPath.endsWith(".lua"))
+		luaPath += ".lua";
 
-		if (FileSystem.exists(luaToLoad))
-		#elseif sys
-		var luaToLoad:String = Paths.getSharedPath(luaFile);
-		if (Assets.exists(luaToLoad))
-		#end
+	var scriptPath:String = null;
+
+	// Intentar primero con ruta absoluta desde assets/
+	#if sys
+	if (FileSystem.exists(luaPath))
+	{
+		scriptPath = luaPath;
+	}
+	else
+	{
+		// Ruta relativa desde assets/
+		var assetPath = 'assets/' + luaPath;
+		if (FileSystem.exists(assetPath))
+			scriptPath = assetPath;
+		else
+		{
+			// Ruta desde mods/ (fallback)
+			#if MODS_ALLOWED
+			var modPath = Paths.mods(luaPath);
+			if (FileSystem.exists(modPath))
+				scriptPath = modPath;
+			#end
+		}
+	}
+	#end
+
+	// Si aún no se encontró nada, lanza un warning
+	if (scriptPath == null)
+	{
+		trace('No se encontró el script Lua: $luaPath');
+		return;
+	}
+
+	// Finalmente, ejecutar el script si se encontró
+	addLuaScript(scriptPath);
+	trace('Script cargado: ' + scriptPath);
+}
 		{
 			for (script in luaArray)
 				if (script.scriptName == luaToLoad)
