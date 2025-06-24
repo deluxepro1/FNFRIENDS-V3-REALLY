@@ -4644,14 +4644,15 @@ public function startLuasNamed(luaPath:String)
 	addLuaScript(scriptPath);
 	trace('Script cargado: ' + scriptPath);
 }
-		{
-			for (script in luaArray)
-				if (script.scriptName == luaToLoad)
-					return false;
+	public function startLuasNamed(luaToLoad:String):Bool
+{
+	for (script in luaArray)
+		if (script.scriptName == luaToLoad)
+			return false;
 
-			new FunkinLua(luaToLoad);
-			return true;
-		}
+	new FunkinLua(luaToLoad);
+	return true;
+}
 		return false;
 	}
 	#end
