@@ -72,41 +72,51 @@
 
 	<!-- Assets -->
 	
-	<assets path="assets/fonts" />
-	<assets path="assets/shared"        exclude="*.ogg" if="web"/>
-	<assets path="assets/shared"        exclude="*.mp3" unless="web"/>
-	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
-	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
-	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
-	<assets path="assets/custom_events" rename="custom_events" />
-        <assets path="assets/custom_notetypes" rename="custom_notetypes" />
-        <assets path="assets/scripts" rename="scripts" />
-        <assets path="assets/stages" rename="stages" />
-	<assets path="assets/week_assets"   library="week_assets"   rename="assets" exclude="*.ogg" if="web"/>
-	<assets path="assets/week_assets"   library="week_assets"   rename="assets" exclude="*.mp3" unless="web"/>
-	<section if="TITLE_SCREEN_EASTER_EGG">
-		<assets path="assets/secrets" rename="assets/shared" exclude="*.ogg" if="web"/>
-		<assets path="assets/secrets" rename="assets/shared" exclude="*.mp3"  unless="web"/>
-	</section>
+	<!-- Assets generales -->
+<assets path="assets/fonts" />
+<assets path="assets/shared" exclude="*.ogg" if="web"/>
+<assets path="assets/shared" exclude="*.mp3" unless="web"/>
+<assets path="assets/videos" library="videos" if="VIDEOS_ALLOWED"/>
+<assets path="assets/songs" library="songs" exclude="*.ogg" if="web"/>
+<assets path="assets/songs" library="songs" exclude="*.mp3" unless="web"/>
 
-	<library name="videos"        preload="true" if="VIDEOS_ALLOWED"/>
+<!-- Assets personalizados que necesitas -->
+<assets path="assets/custom_events" />
+<assets path="assets/custom_notetypes" />
+<assets path="assets/scripts" />
+<assets path="assets/stages" />
 
-	<section if="PRELOAD_ALL">
-	<library name="songs"         preload="true" />
-	<library name="week_assets"   preload="true" />
-	</section>
+<!-- Assets por semana -->
+<assets path="assets/week_assets" library="week_assets" exclude="*.ogg" if="web"/>
+<assets path="assets/week_assets" library="week_assets" exclude="*.mp3" unless="web"/>
 
-	<section if="NO_PRELOAD_ALL">
-	<library name="songs"         preload="false" />
-	<library name="week_assets"   preload="false" />
-	</section>
+<!-- Secretos -->
+<section if="TITLE_SCREEN_EASTER_EGG">
+	<assets path="assets/secrets" rename="assets/shared" exclude="*.ogg" if="web"/>
+	<assets path="assets/secrets" rename="assets/shared" exclude="*.mp3" unless="web"/>
+</section>
 
-	<define name="CHECK_FOR_UPDATES" />
+<!-- Librerías -->
+<library name="videos" preload="true" if="VIDEOS_ALLOWED"/>
 
-	<section if="MODS_ALLOWED">
-		<assets path='example_mods' rename='mods' embed='false'/>
-	</section>
-	<assets path='art/readme.txt' rename='do NOT readme.txt' unless="mobile"/>
+<section if="PRELOAD_ALL">
+	<library name="songs" preload="true" />
+	<library name="week_assets" preload="true" />
+</section>
+
+<section if="NO_PRELOAD_ALL">
+	<library name="songs" preload="false" />
+	<library name="week_assets" preload="false" />
+</section>
+
+<!-- Otros -->
+<define name="CHECK_FOR_UPDATES" />
+
+<section if="MODS_ALLOWED">
+	<assets path="example_mods" rename="mods" embed="false"/>
+</section>
+
+<assets path="art/readme.txt" rename="do NOT readme.txt" unless="mobile"/>
 
 
 	<!-- _______________________________ Libraries ______________________________ -->
