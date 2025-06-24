@@ -4641,10 +4641,10 @@ public function startLuasNamed(luaPath:String)
 	}
 
 	// Finalmente, ejecutar el script si se encontró
-	addLuaScript(scriptPath);
+	new FunkinLua(scriptPath);
 	trace('Script cargado: ' + scriptPath);
 }
-	public function startLuasNamed(luaToLoad:String):Bool
+	public function startcustomLuasNamed(luaToLoad:String):Bool
 {
 	for (script in luaArray)
 		if (script.scriptName == luaToLoad)
