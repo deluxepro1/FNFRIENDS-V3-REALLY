@@ -4653,8 +4653,8 @@ public function startLuasNamed(luaPath:String)
 	new FunkinLua(luaToLoad);
 	return true;
 }
-		return false;
-	}
+	
+	
 	#end
 
 	#if HSCRIPT_ALLOWED
