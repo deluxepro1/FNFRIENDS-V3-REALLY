@@ -195,15 +195,7 @@ class Paths
 	 * Obtiene scripts Lua de tipos de nota personalizados directamente desde assets/
 	 */
 
-	public static function customNoteTypePath(name:String):String
-{
-	var path = 'assets/custom_notetypes/' + name + '.lua';
-	#if sys
-	if (FileSystem.exists(path))
-		return path;
-	#end
-	return path;
-	}
+	
 
 	/**
 	 * Obtiene scripts Lua globales (como los usados en stages o efectos) desde assets/
