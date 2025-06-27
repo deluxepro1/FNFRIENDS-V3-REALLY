@@ -10,17 +10,9 @@ addLuaSprite('piso', false)
 scaleObject('piso', 1.45, 1.5)
 setScrollFactor('piso', 1, 1)
 
-makeAnimatedLuaSprite('tele', 'stages/welcome/tele',100,-500);
-	scaleObject('tele',1.4,1.4)
-setScrollFactor('tele', 1, 1)
-addAnimationByPrefix('tele','vs','vs',24,true);
-objectPlayAnimation('tele','vs',true)
 
 
-makeLuaSprite('cortinas', 'stages/welcome/cortinas-new', -1100, -875)
-addLuaSprite('cortinas', true)
-scaleObject('cortinas', 1.5, 1.4)
-setScrollFactor('cortinas', 1, 1)
+
 
 addLuaSprite('piso', false);
 	addLuaSprite('cortinas', true);
