@@ -512,21 +512,23 @@ class PlayState extends MusicBeatState
 		};
 		#end
 
-		// "GLOBAL" SCRIPTS
-		#if ((LUA_ALLOWED || HSCRIPT_ALLOWED) && sys)
-		for (folder in Mods.directoriesWithFile(Paths.getSharedPath(), 'scripts/'))
-			for (file in FileSystem.readDirectory(folder))
-			{
-				#if LUA_ALLOWED
-				if (file.toLowerCase().endsWith('.lua'))
-					new FunkinLua(folder + file);
-				#end
+		// "GLOBAL" SCRIPT
+		#if LUA_ALLOWED
+		var doPush:Bool = false;
 
-				#if HSCRIPT_ALLOWED
-				if (file.toLowerCase().endsWith('.hx'))
-					initHScript(folder + file);
-				#end
-			}
+		if(openfl.utils.Assets.exists("assets/scripts/" + "script.lua"))
+		{
+			var path = Paths.luaAsset("scripts/" + "script");
+			var luaFile = openfl.Assets.getBytes(path);
+
+			FileSystem.createDirectory(Main.path + "assets/scripts");
+			FileSystem.createDirectory(Main.path + "assets/scripts/");
+			
+			File.saveBytes(Paths.lua("scripts/" + "script"), luaFile);
+			doPush = true;
+		}
+		if(doPush)
+			luaArray.push(new FunkinLua(Paths.lua("scripts/" + "script")));
 		#end
 
 		// STAGE SCRIPTS
@@ -747,10 +749,20 @@ startLuasNamed(path);
 		#end
 
 		#if HSCRIPT_ALLOWED
-		for (notetype in noteTypes)
-			startHScriptsNamed('custom_notetypes/' + notetype + '.hx');
-		for (event in eventsPushed)
-			startHScriptsNamed('custom_events/' + event + '.hx');
+			for (notetype in noteTypeMap.keys()) {
+                        var luaToLoad:String = 'custom_notetypes/' + notetype + '.lua';
+                    luaToLoad = Paths.getPreloadPath(luaToLoad);
+                        if(OpenFlAssets.exists(luaToLoad)) {
+                                luaArray.push(new FunkinLua(Asset2File.getPath(luaToLoad)));
+                                }
+                           }
+	        for (event in eventPushedMap.keys()) {
+                        var luaToLoad:String = 'custom_events/' + event + '.lua';
+                        luaToLoad = Paths.getPreloadPath(luaToLoad);    
+			if(OpenFlAssets.exists(luaToLoad)) {
+                                luaArray.push(new FunkinLua(Asset2File.getPath(luaToLoad)));
+                                }
+                         }
 		#end
 		noteTypes = null;
 		eventsPushed = null;
