@@ -738,11 +738,11 @@ startLuasNamed(path);
 		startingSong = true;
 
 		#if LUA_ALLOWED
-	for (notetype in noteTypesUsed)
-    startLuasNamed(Paths.customNoteTypePath(notetype));
+		for (notetype in noteTypes)
+			var path = Paths.customNoteTypePath(notetype);
 startLuasNamed(path);
-for (event in eventsPushed)
-    startLuasNamed(Paths.customEventPath(event)); // CORREGIDO
+		for (event in eventsPushed)
+		var path = Paths.customEventPath(event);
 startLuasNamed(path);
 		#end
 
@@ -4644,14 +4644,14 @@ public function startLuasNamed(luaPath:String)
 	new FunkinLua(scriptPath);
 	trace('Script cargado: ' + scriptPath);
 }
-public function startLuasNamed(scriptPath:String):Bool
+	public function startcustomLuasNamed(luaToLoad:String):Bool
 {
-    for (script in luaArray)
-        if (script.scriptName == scriptPath)
-            return false;
+	for (script in luaArray)
+		if (script.scriptName == luaToLoad)
+			return false;
 
-    new FunkinLua(scriptPath);
-    return true;
+	new FunkinLua(luaToLoad);
+	return true;
 }
 	
 	

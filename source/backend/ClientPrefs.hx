@@ -11,11 +11,11 @@ import states.TitleState;
 	// General
 	public var framerate:Int = 60;
 	public var colorblindMode:String = 'None';
-	public var lowQuality:Bool = false;
+	public var lowQuality:Bool = true;
 	public var gameQuality:Int = #if mobile 0 #else 1 #end;
-	public var antialiasing:Bool = true;
+	public var antialiasing:Bool = false;
 	public var flashing:Bool = true;
-	public var shaders:Bool = true;
+	public var shaders:Bool = false;
 	public var cacheOnGPU:Bool = false;
 	public var autoPause:Bool = true;
 	public var gcFreeZone:Bool = true;
@@ -74,7 +74,7 @@ import states.TitleState;
 	public var showRating:Bool = true;
 	public var opponentStrums:Bool = true;
 	public var judgementCounter:Bool = false;
-	public var keyboardDisplay:Bool = true;
+	public var keyboardDisplay:Bool = false;
 	// TimeBar s
 	public var timeBarType:String = 'Time Left';
 	// HealthBar s
@@ -85,8 +85,8 @@ import states.TitleState;
 	public var comboColor:Bool = true;
 	public var comboOffsetFix:Bool = true;
 	// KeyBoard s
-	public var keyboardAlpha:Float = 0.8;
-	public var keyboardTimeDisplay:Bool = true;
+	public var keyboardAlpha:Float = 0;
+	public var keyboardTimeDisplay:Bool = false;
 	public var keyboardTime:Float = 500;
 	public var keyboardBGColor:String = 'WHITE';
 	public var keyboardTextColor:String = 'BLACK';
@@ -110,7 +110,7 @@ import states.TitleState;
 	public var hitboxLocation:String = 'Bottom';
 	public var controlsAlpha:Float = 0.6;
 	public var playControlsAlpha:Float = 0.2;
-	public var hideHitboxHints:Bool = false;
+	public var hideHitboxHints:Bool = true;
 
 	public var extraKey:Int = 4;
 	public var extraKeyReturn1:String = 'SPACE';
